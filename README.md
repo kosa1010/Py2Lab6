@@ -79,8 +79,8 @@ Stwórz prostą aplikację czatu TCP umożliwiającą komunikację wielu użytko
 - Admin posiada dodatkowo specjalną komendę _/kick <nick>_, umożliwiającą wyrzucenie wybranego użytkownika z czatu.
 - Każde zdarzenie (dołączenie, opuszczenie czatu, wyrzucenie użytkownika) powinno być komunikowane wszystkim uczestnikom.
 
-Zadanie 4: Prosty skaner portów
+#### 4: Prosty skaner portów
 Napisz program, który skanuje określony zakres portów na danym hoście i sprawdza, które z nich są otwarte.
 
-Zadanie 5: Serwer czasu
+#### 5: Serwer czasu
 Zaimplementuj serwer, który zwraca aktualny czas w formacie UTC po otrzymaniu komendy _"TIME"_.
