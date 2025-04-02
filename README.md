@@ -28,8 +28,11 @@ Lewa kolumna reprezentuje serwer, a prawa klienta.
 W górnej części po lewej stronie znajdują się wywołania API, które serwer wykonuje, aby utworzyć gniazdo „nasłuchujące”:
 
 • `socket()`
+
 • `.bind()`
+
 • `.listen()`
+
 • `.accept()`
 
 Gniazdo nasłuchujące działa zgodnie z nazwą – oczekuje na połączenia od klientów. Gdy klient się połączy, serwer wywołuje `.accept()`, aby zaakceptować połączenie.
