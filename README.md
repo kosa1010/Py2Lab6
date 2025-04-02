@@ -27,13 +27,10 @@ Schemat typowej komunikacji klient – serwer przedstawiono na rysunku poniżej:
 Lewa kolumna reprezentuje serwer, a prawa klienta.
 W górnej części po lewej stronie znajdują się wywołania API, które serwer wykonuje, aby utworzyć gniazdo „nasłuchujące”:
 
-• `socket()`
-
-• `.bind()`
-
-• `.listen()`
-
-• `.accept()`
+- `socket()`
+- `.bind()`
+- `.listen()`
+- `.accept()`
 
 Gniazdo nasłuchujące działa zgodnie z nazwą – oczekuje na połączenia od klientów. Gdy klient się połączy, serwer wywołuje `.accept()`, aby zaakceptować połączenie.
 Klient wywołuje `.connect()`, aby nawiązać połączenie z serwerem i rozpocząć tzw. _handshake_ (trójetapowe uzgadnianie połączenia). Ten proces zapewnia, że każda strona połączenia jest osiągalna w sieci.
